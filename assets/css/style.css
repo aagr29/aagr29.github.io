@@ -291,6 +291,7 @@ ul.list-check li::before {
 	background-size: cover;
 	padding: 0;
 	position: relative;
+	min-height: 100vh;
 }
 #home:before {
 	content: "";
@@ -507,6 +508,27 @@ SOCIAL ICON
     background: #222;
 }
 
+.nav-resume-btn {
+    padding: 6px 14px;
+    border: 1px solid #68c3a3;
+    border-radius: 3px;
+    color: #68c3a3 !important;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.nav-resume-btn:hover {
+    background-color: #68c3a3 !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.navbar-resume-fixed {
+    position: fixed;
+    right: 20px;
+    top: 14px;
+    z-index: 9999;
+}
 
 
 /* === About Section === */
